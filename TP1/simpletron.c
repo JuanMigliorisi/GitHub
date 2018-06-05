@@ -4,7 +4,7 @@ int main(int argc,char *argv[]){
 
 	PARAMETROS_T flags;
 	simpletron_t simpletronp;
-	char *nomin = MSJ_NO_OUT, *nomout = MSJ_NO_OUT, *ayuda = AR_AYUDA, *bienvenida = AR_BIENVENIDA;
+	char *nomin = MSJ_NO_IN, *nomout = MSJ_NO_OUT, *ayuda = AR_AYUDA, *bienvenida = AR_BIENVENIDA;
 	FILE *pf;
 	
 	simpletronp.acumulador = 0;
